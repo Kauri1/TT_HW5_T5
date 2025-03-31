@@ -31,6 +31,12 @@ public class ShoppingCart {
         //log.debug("Added " + item.getName() + " quantity of " + item.getQuantity());
     }
 
+    public void addItem(SoldItem item, int quantity) {
+        for (int i = 0; i < quantity; i++) {
+            addItem(item);
+        }
+    }
+
     public List<SoldItem> getAll() {
         return items;
     }
