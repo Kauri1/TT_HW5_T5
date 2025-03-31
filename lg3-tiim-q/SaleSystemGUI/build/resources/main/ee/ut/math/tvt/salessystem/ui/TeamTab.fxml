@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" styleClass="background_style" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <TitledPane alignment="CENTER" animated="false" collapsible="false" text="Team info" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <GridPane hgap="30" styleClass="sub_background" vgap="20">
+            <Label text="Team name " GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label fx:id="teamName" text="teamName" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+            <Label text="Team leader " GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Label fx:id="teamLeader" text="teamLeader" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label text="Team leader email " GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Label fx:id="teamLeaderMail" text="teamLeaderMail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <Label text="Team members " GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <Label fx:id="teamMembers" text="teamMembers" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+            <ImageView fx:id="teamLogo" fitHeight="150" fitWidth="150" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="0" GridPane.rowSpan="5" />
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="10000.0" minWidth="10.0" prefWidth="50.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+    </TitledPane>
+</AnchorPane>

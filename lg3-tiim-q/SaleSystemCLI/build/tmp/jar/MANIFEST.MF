@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Implementation-Title: Gradle Quickstart
+Implementation-Version: 1.0
+Main-Class: ee.ut.math.tvt.salessystem.ui.ConsoleUI
+Class-Path: file:/C:/Users/kauri/Desktop/ylikool/HetkeTunnid/tarkvaraare
+ ndus/lg3-tiim-q/build/libs/lg3-tiim-q-1.0.jar file:/C:/Users/kauri/.gra
+ dle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.23
+ .1/905802940e2c78042d75b837c136ac477d2b4e4d/log4j-core-2.23.1.jar file:
+ /C:/Users/kauri/.gradle/caches/modules-2/files-2.1/org.apache.logging.l
+ og4j/log4j-api/2.23.1/9c15c29c526d9c6783049c0a77722693c66706e1/log4j-ap
+ i-2.23.1.jar file:/C:/Users/kauri/.gradle/caches/modules-2/files-2.1/or
+ g.hsqldb/hsqldb/2.7.2/d92d4d2aa515714da2165c9d640d584c2896c9df/hsqldb-2
+ .7.2.jar file:/C:/Users/kauri/.gradle/caches/modules-2/files-2.1/org.hi
+ bernate.orm/hibernate-jpamodelgen/6.6.0.Final/1fc6ac88c6b1a907e6b7f2673
+ df5f65218a6b97c/hibernate-jpamodelgen-6.6.0.Final.jar file:/C:/Users/ka
+ uri/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-core
+ /6.6.0.Final/f7f410bfcc65c1d2644c978df35f871160db3214/hibernate-core-6.
+ 6.0.Final.jar file:/C:/Users/kauri/.gradle/caches/modules-2/files-2.1/j
+ akarta.persistence/jakarta.persistence-api/3.1.0/66901fa1c373c6aff65c13
+ 791cc11da72060a8d6/jakarta.persistence-api-3.1.0.jar file:/C:/Users/kau
+ ri/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/4
+ .0.2/e4e4e0c5b0d42054d00dc4023901572a60d368c7/jaxb-runtime-4.0.2.jar fi
+ le:/C:/Users/kauri/.gradle/caches/modules-2/files-2.1/org.glassfish.jax
+ b/jaxb-core/4.0.2/8c29249f6c10f4ee08967783831580b0f5c5360/jaxb-core-4.0
+ .2.jar file:/C:/Users/kauri/.gradle/caches/modules-2/files-2.1/jakarta.
+ xml.bind/jakarta.xml.bind-api/4.0.0/bbb399208d288b15ec101fa4fcfc4bd77ce
+ dc97a/jakarta.xml.bind-api-4.0.0.jar file:/C:/Users/kauri/.gradle/cache
+ s/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotation
+ s/7.0.1.Final/c21c8b84ab6c56b181014df3df2ed1467a7a7e88/hibernate-common
+ s-annotations-7.0.1.Final.jar file:/C:/Users/kauri/.gradle/caches/modul
+ es-2/files-2.1/io.smallrye/jandex/3.2.0/f17ad860f62a08487b9edabde608f8a
+ c55c62fa7/jandex-3.2.0.jar file:/C:/Users/kauri/.gradle/caches/modules-
+ 2/files-2.1/jakarta.validation/jakarta.validation-api/3.0.2/92b6631659b
+ a35ca09e44874d3eb936edfeee532/jakarta.validation-api-3.0.2.jar file:/C:
+ /Users/kauri/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jaka
+ rta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakar
+ ta.annotation-api-2.1.1.jar file:/C:/Users/kauri/.gradle/caches/modules
+ -2/files-2.1/org.antlr/antlr4-runtime/4.13.0/5a02e48521624faaf5ff4d99af
+ c88b01686af655/antlr4-runtime-4.13.0.jar file:/C:/Users/kauri/.gradle/c
+ aches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.14.18/81e9b9a20944
+ 626e6757b5950676af901c2485/byte-buddy-1.14.18.jar file:/C:/Users/kauri/
+ .gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.5.
+ 0.Final/c19307cc11f28f5e2679347e633a3294d865334d/jboss-logging-3.5.0.Fi
+ nal.jar file:/C:/Users/kauri/.gradle/caches/modules-2/files-2.1/jakarta
+ .transaction/jakarta.transaction-api/2.0.1/51a520e3fae406abb84e2e1148e6
+ 746ce3f80a1a/jakarta.transaction-api-2.0.1.jar file:/C:/Users/kauri/.gr
+ adle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/3fe0bed56
+ 8c62df5e89f4f174c101eab25345b6c/classmate-1.5.1.jar file:/C:/Users/kaur
+ i/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/
+ 2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1
+ .jar file:/C:/Users/kauri/.gradle/caches/modules-2/files-2.1/org.eclips
+ e.angus/angus-activation/2.0.0/72369f4e2314d38de2dcbb277141ef0226f73151
+ /angus-activation-2.0.0.jar file:/C:/Users/kauri/.gradle/caches/modules
+ -2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.1/88c774ab86
+ 3a21fb2fc4219af95379fafe499a31/jakarta.activation-api-2.1.1.jar file:/C
+ :/Users/kauri/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw
+ 2/4.0.2/24e167be69c29ebb7ee0a3b1f9b546f1dfd111fc/txw2-4.0.2.jar file:/C
+ :/Users/kauri/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-
+ commons-runtime/4.1.1/9b3769c76235bc283b060da4fae2318c6d53f07e/istack-c
+ ommons-runtime-4.1.1.jar
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
+             https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="POS" >
+        <!-- Explicitly specify the provider compatible with Hibernate 6.x -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>ee.ut.math.tvt.salessystem.dataobjects.SoldItem</class>
+        <class>ee.ut.math.tvt.salessystem.dataobjects.StockItem</class>
+        <class>ee.ut.math.tvt.salessystem.dataobjects.HistoryEntry</class>
+        <properties>
+            <!-- Configure Hibernate to use the HSQL database running on the local machine -->
+            <property name="jakarta.persistence.jdbc.driver"
+                      value="org.hsqldb.jdbcDriver"/>
+            <property name="jakarta.persistence.jdbc.url"
+                      value="jdbc:hsqldb:hsql://localhost/pos"/>
+            <!-- this loads initial data -->
+            <property name="jakarta.persistence.sql-load-script-source"
+                      value="META-INF/initial-data.sql" />
+            <!-- Configure Hibernate to print out all the SQL commands that it is executing -->
+            <!--<property name="hibernate.show_sql" value="true"/>-->
+            <!-- Schema generation settings: drop-and-create the database tables -->
+            <!-- the tables are created at application startup. all existing tables and data are deleted -->
+            <!-- feel free to set it to 'none' to keep existing tables and data -->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
+
+            <property name="jakarta.persistence.schemageneration.database.action" value="drop-and-create"/>
+        </properties>
+    </persistence-unit>
+</persistence>
